@@ -44,7 +44,7 @@ class MyData(Dataset):
 
 if __name__ == '__main__':
     transform = transforms.Compose([transforms.Resize((256, 256)), transforms.ToTensor()])
-    root_dir = "dataset/train"
+    root_dir = "../dataset/train"
     image_ants = "ants_image"
     label_ants = "ants_label"
     ants_dataset = MyData(root_dir, image_ants, label_ants, transform)

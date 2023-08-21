@@ -2,3 +2,7 @@
 /logs
 /data
 /logs_*
+dataset/
+dataset_old/
+materials/
+logs/
